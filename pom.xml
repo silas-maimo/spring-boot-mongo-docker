@@ -86,6 +86,21 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
+		<distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Landmark Technologies Releases Nexus Repository</name>
+	      <url>http://172.31.82.191:4000/repository/td-proj-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Landmark Technologies Snapshot Nexus Repository </name>
+	      <url>http://172.31.16.247:2000/repository/spring-snap/</url>
+	    </snapshotRepository>
+	    
+	    </distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
