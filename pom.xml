@@ -97,7 +97,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.16.247:2000/repository/spring-snap/</url>
+	      <url>http://172.31.26.226:2000/repository/spring-snap/</url>
 	    </snapshotRepository>
 	    
 	    </distributionManagement>
