@@ -18,8 +18,8 @@
 		<spring-boot.version>2.1.5.RELEASE</spring-boot.version>
 		<spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
 		<logstash-logback-encoder.version>6.1</logstash-logback-encoder.version>
-		<sonar.host.url>http:172.31.27.39:500/</sonar.host.url>
-		<sonar.login>admin</sonar.login>
+		<sonar.host.url>http:172.31.0.73:2000/</sonar.host.url>
+		<sonar.login>silas</sonar.login>
 		<sonar.password>google</sonar.password> 
 	</properties>
 
@@ -91,13 +91,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.27.39:600/repository/dummy-kops-release/</url> 
+	      <url>http://3.145.152.101:3000/repository/fintech-release/</url> 
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.27.39:600/repository/dummy-kops-snap/</url>
+	      <url>http://3.145.152.101:3000/repository/fintech-snap/</url>
 	    </snapshotRepository>
 	    
 	    </distributionManagement>
