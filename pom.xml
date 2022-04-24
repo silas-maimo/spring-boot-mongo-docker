@@ -91,13 +91,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.145.152.101:3000/repository/fintech-release/</url> 
+	      <url>http://172.31.0.73:3000/repository/fintech-release/</url> 
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.145.152.101:3000/repository/fintech-snap/</url>
+	      <url>http://172.31.0.73:3000/repository/fintech-snap/</url>
 	    </snapshotRepository>
 	    
 	    </distributionManagement>
